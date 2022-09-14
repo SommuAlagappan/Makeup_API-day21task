@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup-API</title>
+
+    <!-- <link rel="stylesheet" href="index1.css"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <style >
+         body{
+             background-color:hotpink
+          }
+
+          .marqueeTag{
+            color:blue
+          }
+
+          @media only screen and (max-width: 900px) {
+          .widthfor{
+            width:75% !important
+          }
+}
+      </style>
+
+</head>
+<body>
+
+<!-- navbar -->
+<div>
+<nav class="navbar navbar-dark bg-light p-1">
+    <div class="container-fluid">
+      <img src="https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?cs=srgb&dl=pexels-jhong-pascua-3018845.jpg&fm=jpg" width="40" height="40">
+      <span class="navbar-brand mb-0 h1 text-dark  mx-auto"><h1>Wakeup 2 Makeup.in</h1></span>
+    </div>
+  </nav>
+</div> </br>
+
+<!-- marquee tag - Products -->
+<div class="marqueeTag1">
+<marquee><h4>Search for our premium Products - Lipstick, Mascara, Foundation, Bronzer, Blush, Eyebrow, Eyeliner, Lip liner and Nail Polish</h4></marquee>
+</div>
+<!-- Input box and search button -->
+<div class=" widthfor input-group mb-3 mt-5 w-25 mx-auto">
+    <input type="text" id="product_type" class="form-control" placeholder="Enter the product name" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-outline-dark submitButton" type="button" id="button-addon2">Search</button>
+  </div>
+
+<!-- Cards -->
+<div id="productCardsNew"></div>
+
+<!-- marquee tag - Discount -->
+<div class="marqueeTag mb-5 p-5">
+  <marquee><p>Use our code<b> wakeupmakeup </b>and get <b>flat 10% off</b> on our premium products</p></marquee>
+  </div>
+
+ <!----Footer-->
+ <div class="fixed-bottom">
+  <footer class="py-1 bg-light">
+   <div class="container">
+   <p class=" lead fw-bold text-dark text-center pt-0 mt-2"> &copy; 2022 Copyright: Wakeup 2 Makeup.in </p>
+   </div>
+    </footer>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
